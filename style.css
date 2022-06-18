@@ -1,0 +1,99 @@
+/**@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>**/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ body {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     font-family: 'Lexend Deca', sans-serif;
+ }
+ .flex-container {
+     display: flex;
+     color: white;
+ }
+
+ .one {
+     background-color: hsl(31, 77%, 52%);
+     height: 75vh;
+     width: 25vw;
+     padding: 6%;
+ }
+
+ .two {
+    background-color: hsl(184, 100%, 22%);
+    height: 75vh;
+     width: 25vw;
+     padding: 6%;
+}
+
+.three {
+    background-color: hsl(179, 100%, 13%);
+    height: 75vh;
+     width: 25vw;
+     padding: 6%;
+}
+h1 {
+    line-height: 6rem;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+
+.button {
+    border-radius: 12px;
+    background-color: white;
+    width: 7rem;
+    height: 2.5rem;
+    margin-top: 5rem;
+    border-radius: 30px;
+    
+}
+.one > button {
+    color: hsl(31, 77%, 52%);
+}
+
+.two > button {
+    color: hsl(184, 100%, 22%);
+    
+}
+
+.three > button {
+    color: hsl(179, 100%, 13%);
+}
+
+@media only screen and (max-width: 375px){
+    body {
+        height: 160vh;
+    }
+    .flex-container {
+        display: block;
+    }
+    .one {
+        width: 70vw;
+        height: 50vh;
+    }
+    .two {
+        width: 70vw;
+        height: 50vh;
+    }
+    .three {
+        width: 70vw;
+        height: 50vh;
+    }
+}
+
+
+
+
+
+
+
+
+
+   
